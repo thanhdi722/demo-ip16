@@ -1,0 +1,93 @@
+.cardContainer {
+  background-image: linear-gradient(to bottom, #58483e, #392c25);
+  padding: 16px;
+  border-radius: 10px;
+  border: 2px solid #f3eae6;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  font-family: "San Francisco", sans-serif;
+}
+
+.productImage {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.productName {
+  background: linear-gradient(to bottom, #d09e7b, #f3eae6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 0 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.labelPrice {
+  background-color: #ac785c;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+.br {
+  display: none;
+}
+@media (max-width: 1440px) {
+  .cardContainer {
+    margin: auto;
+    width: 20vw;
+    height: auto;
+  }
+  .productImage {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .cardContainer {
+    margin: auto;
+    width: 30vw;
+    height: auto;
+  }
+  .productImage {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .br {
+    display: block;
+  }
+  .colon {
+    display: none;
+  }
+  .labelPrice {
+    background-color: #ac785c;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 14px;
+  }
+  .cardContainer {
+    width: 45vw;
+    height: auto;
+    padding: 8px;
+  }
+  .productImage {
+    width: 80px;
+    height: 80px;
+  }
+  .productName {
+    margin: 5px 0 5px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
