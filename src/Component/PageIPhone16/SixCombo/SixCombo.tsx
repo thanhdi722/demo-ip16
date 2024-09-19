@@ -1,16 +1,16 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import combo1 from "../../../assets/images/6 BO QUA PK.png";
 import Image from "next/image";
 import style from "@/style/SixCombo.module.css";
 import "../../../style/SixCombo.scss";
 export default function SixCombo() {
-  const [expanded, setExpanded] = useState<boolean>(false);
+  // const [expanded, setExpanded] = useState<boolean>(false);
 
   return (
     <div style={{ backgroundColor: "#1f1f1d" }}>
       <Image src={combo1} alt="combo1" className={style.comboImage} />
-      <div className={`${style.BoxCombo} ${expanded ? style.expanded : ""}`}>
+      {/* <div className={`${style.BoxCombo} ${expanded ? style.expanded : ""}`}>
         <h2 className="BoxCombo-title">Thể Lệ Chương Trình</h2>
         <div className="BoxCombo-content" id="test">
           <h2 className="BoxCombo-title">
@@ -140,7 +140,7 @@ export default function SixCombo() {
         onClick={() => setExpanded(!expanded)}
       >
         {expanded ? "Thu gọn" : "Xem thêm"}
-      </button>
+      </button> */}
     </div>
   );
 }
