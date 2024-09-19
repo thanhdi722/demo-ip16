@@ -31,4 +31,10 @@
   .comboImage {
     width: 100vw;
   }
+  .BoxCombo {
+    padding: 0px;
+    max-height: 600px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
 }
