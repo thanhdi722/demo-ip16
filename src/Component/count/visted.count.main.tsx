@@ -99,19 +99,6 @@ function Visitors() {
           />
           <span> Khách hàng đăng ký</span>
         </Grid>
-        <Grid
-          xs={12}
-          item
-          sx={{
-            background: "linear-gradient(90deg,#dfae86, #9ca4c4)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            fontSize: { xs: "14px", sm: "18px" },
-            textDecoration: "underline",
-          }}
-        >
-          Thể Lệ Chương Trình
-        </Grid>
       </Grid>
     </VisitorCountStyled>
   );
